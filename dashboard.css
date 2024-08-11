@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    font-family: Roboto;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(32, 46, 172);
+    padding: 1rem;
+}
+
+.sidebar-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+ul {
+    list-style: none;
+}
+
+.sidebar-header div {
+    display: flex;
+}
+
+.sidebar-header p {
+    /* display: inline-block; */
+    color: whitesmoke;
+    font-weight: bold; 
+    font-size: larger;   
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.sidebar-items img {
+    height: 1.5rem;
+}
+
+.sidebar-header img {
+    height: 3rem;
+}
+
+.nav-items li, .misc-items li {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.nav-items li a, .misc-items li a {
+    margin-top: 5px;
+}
+
+.content-container {
+    background-color: #e8e5e5;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 1rem;
+    gap: 1rem;
+}   
+
+.content h3 {
+    padding-bottom: .5rem;
+}
+
+.header {
+    background-color: white;
+    padding: 1rem;
+    box-shadow: 0 1rem .5rem -1rem rgb(181, 178, 178);
+}
+
+.first-row, .second-row {
+    display: flex;
+}
+
+.image-one {
+    height: 2rem;
+    margin-top: .5rem;
+}
+
+.image-two, .image-three {
+    height: 5rem;
+    margin-top: -1rem;
+}
+
+.name-one {
+    margin-top: 1rem;
+}
+
+.first-row .first-element {
+    margin-left: 5rem;
+}
+
+.second-element {
+    display: flex;
+    margin-left: auto;
+}
+
+.second-row .first-element {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.second-row {
+    margin-bottom: -1rem;
+}
+
+.intro-element p,
+.actions button ,
+.second-element p  {
+    font-weight: bold;
+}
+
+.second-element {
+    display: flex;
+    gap: 1rem;
+}
+
+.actions {
+    padding-top: 1.5rem;
+}
+.actions button {
+    background-color: rgb(32, 46, 172);
+    padding: .5rem;
+    width: 6rem;
+    color: whitesmoke;
+    border: none;
+    border-radius: 15px;    
+}
+
+button > img {
+    height: 1.5rem;
+}
+
+input {
+    background-color: #d4d4d4;
+    width: 30rem;
+    padding: .3rem;
+    border: 0;
+    border-radius: 20px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 1rem;
+}
+
+.card {
+    display: flex;
+    border-radius: 0.625rem;
+
+    background-color: white;
+}
+
+.small-sidebar {
+    background-color: orange;
+    height: 100%;
+    width: 1rem;
+    border-radius: 0.625rem 0 0 0.625rem;
+}
+
+.description {
+    padding: 1rem;
+}
+.article-options {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.article-options img {
+    height: 1.5rem;
+}
+
+.announcements-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    border: none;
+}
+
+.announcements {
+    background-color: white;
+    padding: 1rem;
+    border-radius: .625rem;
+}
+
+.announcements:last-child {
+    margin-bottom: 1rem;
+}
+
+hr {
+    margin: 1rem;
+}
+
+.trends {
+    background-color: white;
+    border-radius: .625rem;
+    padding: 1rem;
+}
+
+.trend {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.trends img {
+    height: 2rem;
+}
